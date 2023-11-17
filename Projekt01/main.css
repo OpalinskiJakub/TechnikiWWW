@@ -62,5 +62,28 @@ body, html {
 
 .main-content {
   margin-bottom: 60px; 
+  padding: 0;
 }
 
+
+.content ul{
+  list-style-type: none; 
+  padding-left: 0; 
+}
+
+.content ul li{
+  border: 2px solid chocolate;
+  margin: 2%;
+  display: flex;
+  align-items: center;
+}
+
+.aboutAsContent ul li{ 
+  border: 2px solid chocolate;
+  margin: 2%;
+}
+
+.aboutAsContent ul{ 
+  list-style-type: none; 
+  padding-left: 0; 
+}
