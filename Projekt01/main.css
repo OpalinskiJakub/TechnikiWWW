@@ -109,3 +109,16 @@ body, html {
   align-items: center;
   padding: 5%;
 }
+
+.images {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.images img {
+  width: 22%;
+  max-width: 100%;
+  height: auto;
+  margin: 1%;
+}
